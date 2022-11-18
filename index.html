@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Tindog</title>
+</head>
+<body>
+    
+    <div class="content-wrapper">
+
+        <header class="header">
+            <i class="fa-solid fa-user user-icons"></i>
+            <img class="header__logo" src="/assets/images/logo.png" alt="">
+            <i class="fa-solid fa-comment user-icons"></i>
+        </header>
+
+        <main id="dog-container">
+            <div class="badge"></div>
+            <div class="dog-image-container">
+                <div class="dog-image"></div>
+            </div>
+            <div id="card"></div>
+        </main>
+
+        <div class="button-container">
+            <button class="round-button round--button__no">
+                <img src="assets/images/icon-cross.png" alt="" />
+            </button>
+            <button class="round-button round--button__yes">
+                <img src="assets/images/icon-heart.png" alt="" />
+            </button>
+        </div>
+
+    </div>
+    <script src="/assets/scripts/index.js" type="module"></script>
+</body>
+</html>

@@ -73,7 +73,7 @@ function clearBadges() {
 }
 
 function outOfDogs() {
-
+    createArrayBase();
 }
 
 function renderCard() {
